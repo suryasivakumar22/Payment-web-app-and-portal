@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <form action="#" method="POST">
+            {% csrf_token %}
+            <title>PK Pay</title>
+            <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+            <div id="head">
+            <header>
+                <center>
+                   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+                </center>
+                <br>
+        
+            
+            </header>
+	        </div>
+
+    </head>
+<body>
+    <div id="toll">
+        <form method="POST">
+        <h1><strong>Fastag</strong></h1>
+        <div class="tollin">
+        <form>
+            <input type="text" placeholder="Vehicle Number" required name="veh">
+            <input type="tel" placeholder="amount" required name="vamt">
+        </div>
+        <div class="tollbut">
+           
+            <button type="submit">Proceed</button>
+            </form>
+        </div>
+    </div>
+
+    
+	<div id="foot5">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+	
+</body>
+</html>

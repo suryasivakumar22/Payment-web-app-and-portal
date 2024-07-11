@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<form method="POST">
+	{% csrf_token %}
+	<title>PK Pay</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<div id="head">
+	<header>
+		<center>
+		   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+		</center>
+		<br>
+
+		
+	</header>
+    </div>
+<body>
+    <form method="POST">
+        <div id="ma">
+            <h1><strong>All Packs</strong></h1>
+            <div id="mpack">
+                <label for="packs">Choose a pack</label>
+                <select name="pack" id="pack">
+                <option value="Rs.449/2GB">Rs.449 2GB/day ,SMS:100/Day ,truly unlimited , 56 days</option>                      
+                <option value="Rs.999/3GB">Rs.999 3GB/day ,SMS:100/Day, unlimited calls,unlimited Data, 3 months</option>
+                <option value="Rs.399/1.5GB">Rs.399 1.5 GB/Day SMS:100/Day unlimited calls and data ,56 days</option>
+                </select>
+                                                                                                              
+            </div>  
+            
+                
+            <div class="ppack">
+                <button type="submit">Proceed</button>
+                </form>
+
+            </div>
+        
+        </div>
+          
+
+    </form>
+
+
+    <div id="foot78">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+  
+</body>
+</html>

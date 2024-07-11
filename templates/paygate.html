@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<form method="POST">
+	{% csrf_token %}
+	<title>PK Pay</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<div id="head">
+	<header>
+		<center>
+		   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+		</center>
+		<br>
+
+		
+	</header>
+    </div>
+  
+          
+
+    
+<body>
+    <form method="POST">
+        <div id="pp">
+            <h1><strong>Make Payment</strong></h1>
+        
+            <input type="tel" placeholder="Card number" required name="Cardnum" maxlength="16">
+            <input type="month" placeholder="expiry date" required name="exp">
+            <input type="password" placeholder="CVV/CVC" required name="cvv" maxlength="3">
+            <input type="text" placeholder="Card Holder's Name" required name="Cardname">
+
+        
+            <div id="chb">
+                <label for="bank">Choose a bank</label>
+
+                    <select name="bank" id="bank">
+                    <option value="axis">Axis bank</option>
+                    <option value="indusind">Indusind bank</option>
+                    <option value="hdfc">HDFC bank</option>
+                    </select>
+
+                <label for="tyb">Choose card type</label>
+                <select name="tyb" id="tyb">
+                    <option value="visa">Visa</option>
+                </select>
+            </div>
+
+            <div class="ppro">
+                <button type="submit">Proceed</button> 
+        
+
+            </div>
+
+           
+            
+    
+        </div>
+
+    </form>   
+
+        
+
+        <div id="foot45">
+		<footer>
+            <h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+            <h2><center>Payments secured with</center></h2>
+            <img src="{% static 'images/norton.jpg' %}" alt="logo" width="100px" height="50px">
+            <img src ="{% static 'images/amr.jpg' %}" alt="logo" width="100px" height="50px">          
+      
+		</footer>
+	    </div>
+	
+
+    
+</body>
+</html>

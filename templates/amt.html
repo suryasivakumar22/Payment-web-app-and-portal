@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <form action="#" method="POST">
+    {% csrf_token %}
+    <title>PK Pay</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <div id="head">
+    <header>
+        <center>
+             <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+        </center>
+        <br>
+
+		
+	</header>
+	</div>
+
+</head>
+<body>
+    <form action="POST">
+        <div id="amnt">
+            <h1><strong>Dth</strong></h1>
+            <input type="tel" placeholder="enter amount" required value="" name="amount">
+        
+        <div class="dp">
+            <button type="submit">Proceed</button>
+        
+
+        </div>
+        </div>
+    </form>
+
+    <div id="foot96">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+</body>

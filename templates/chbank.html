@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PK Pay</title>
+        {% csrf_token %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <div id="head">
+        <header>
+            <center>
+               <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+            </center>
+            <br>
+    
+            
+        </header>
+        </div>
+    </head>
+<body>
+    <div id="chobank">
+        <h1><strong>Money Transfer</strong></h1>
+        <form>
+        <div class="amt">
+            <input type="tel"  required placeholder="Enter Amount" >   
+        </div>
+        <div class="bankc">
+            <h1><strong>Choose Bank</strong></h1>
+        </div>
+        <div class="bankopt">
+                <select name="bank" id="bank">
+                <option value="Indusind">Indusind bank</option>                      
+                <option value="axis">Axis bank</option>
+                <option value="hdfc">HDFC Bank</option>
+                </select>
+
+        </div>
+        <div class="bankbut">
+            <form action="#" method="post">
+            <button type="submit">Proceed</button>
+        
+            </form>
+    
+        </div>
+        
+    </div>
+</form>
+
+    <div id="foot7">
+        <footer>
+            <h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+        </footer>
+    </div>
+</body>
+</html>

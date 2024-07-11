@@ -1,0 +1,1192 @@
+@import " https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    background-image: url('../images/bg10.jpg');
+    background-color: white;
+
+}
+
+header{
+    background-color:white;
+}
+
+#head{
+    background:white;
+    padding:10px;
+    
+}
+#heyu li{
+    color:blueviolet;
+    float:right;
+    font-size: 20px;
+    font-weight: 100em;
+    background: white;
+    border:2px inset orange;
+    border-radius: 40px;
+    
+        
+}
+
+.opt{
+    
+    padding: 5px;
+    top:50%;
+    bottom:50%; 
+    position: relative;
+    
+}
+.btn{
+    position: relative;
+    display:block;
+    font-size: 14px;
+    font-family:sans-serif;
+    text-decoration:none;
+    margin:30px 30px;
+    border-bottom:5px groove whitesmoke;
+    border-radius: 16px;
+    padding:15px 30px;
+    text-transform: uppercase;
+    overflow:hidden;
+    transition:1s all ease;
+    
+    
+    
+}
+.btn::before{
+    background:coral;
+    content:"";
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform:translate(-100%,-100%);
+    z-index:-1;
+    transition:all 0.6s ease;
+    
+}
+.button1::before{
+    width: 100%;
+    height:0;
+    transform: translate(-100%,-100%) rotate(45deg);
+}
+.button1:hover::before{
+    height: 380%;
+}
+.button2::before{
+    width: 100%;
+    height:0;
+    transform: translate(-100%,-100%) rotate(45deg);
+}
+.button2:hover::before{
+    height: 380%;
+}
+.button3::before{
+    width: 100%;
+    height:0;
+    transform: translate(-100%,-100%) rotate(45deg);
+}
+.button3:hover::before{
+    height: 380%;
+}
+.button4::before{
+    width: 100%;
+    height:0;
+    transform: translate(-100%,-100%) rotate(45deg);
+}
+.button4:hover::before{
+    height: 380%;
+}
+.opt a:hover{
+    color:whitesmoke;
+}
+.opt a{
+    color:black;
+	font-size:30px;
+    text-decoration:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cntarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-right: 10px;
+
+}
+.nav{
+    margin:0;
+    padding: 8px;
+    border:7px inset orangered;
+    background:darkslategrey;
+
+
+}
+.nav li{
+    list-style:none;
+    display: inline;
+    padding:10px;
+}
+.nav li a{
+    text-decoration: none;
+    position:relative;
+    color:#313131;
+    font-size:30px;
+    font-weight:500;
+    font-family:sans-serif;
+    display:inline;
+    background:darkorange;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:0.7s all;
+    padding:10px 10px;
+}
+.nav li a::before{
+    content:'';
+    width:60px;
+    position: absolute;
+    border-bottom: 3px solid aquamarine;
+    bottom:0;
+    right:50px;
+    transition:0.7s all;
+
+}
+.nav a:hover{
+    color:whitesmoke;
+}
+.nav a:active{
+    color:greenyellow;
+    
+}
+.nav a:hover::before{
+    right:0;
+    
+}
+
+#foot footer {
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:2%;
+        
+}
+
+#foot1 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:32%;
+
+}
+
+#info h2{
+    padding:5px;
+    border:5px outset orange;
+    margin:5px;
+    background:darkslategray;
+    color:whitesmoke;
+    font-size: 40px;
+    margin-top: 0;
+    
+
+}
+
+#info blockquote{
+    padding:10px;
+    font-size:30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:lawngreen;
+    border-radius: 10px;
+}
+
+#contact h1{
+    padding:10px;
+    background:darkslategray;
+    border:5px orange outset;
+    color:whitesmoke;
+    margin-top:0 ;
+    
+
+}
+
+#contact h2{
+	border-bottom:outset 5px coral;
+	padding:5px;
+	background:darkkhaki;
+
+}
+#contact h3{
+	border-bottom:outset 5px brown;
+	color:black;
+	padding:5px;
+    background-color:normal;
+    font-size: 25px;
+}
+
+
+body{
+    margin:0 ;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    
+}
+#login {
+    width:360px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    background: #313131;
+    padding:50px;
+    margin:10px;
+    border-radius: 5px;
+
+}
+#login h1{
+    float: left;
+    font-size: 50px;
+    border-bottom: 5px solid orangered;
+    margin-bottom:50px;
+    padding: 13px 0;
+
+
+}
+
+
+.textbox {
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid orangered;
+
+}
+
+.textbox i{
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input{
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+}
+
+.btn1 button{
+    width: 100%;
+    background: none;
+    border:2px solid orangered;
+    color:white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btn2 button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid cyan;
+    background: #313131;
+    width:100%;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+#signup{
+    width:360px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    background: #313131;
+    padding:35px;
+    margin:20px;
+    border-radius: 5px;
+
+
+}
+
+#signup h1{
+    float: left;
+    font-size: 50px;
+    border-bottom: 5px solid cyan;
+    margin-bottom:50px;
+    padding: 13px 0;
+
+
+}
+
+#signup i{
+    width: 25px;
+    float: left;
+    text-align: center;
+
+}
+
+#signup input{
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+}
+
+.name1{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid cyan;
+}
+
+.name2{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid cyan;
+    
+}
+.mail{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid cyan;
+    
+}
+.password{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid cyan;
+    
+}
+.phone{
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom: 1px solid cyan;
+    
+}
+
+#foot2 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:34%;
+
+}
+
+.btn5 button{
+    width: 95%;
+    background: #313131;
+    border:2px solid cyan;
+    color:white;
+    padding:10px;
+    cursor: pointer;
+    margin-top: 0px;
+    border-radius: 2px;
+    
+}
+.account label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin:0px;
+}
+
+#rech{
+    padding: 5px;
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:10px 60px;
+    margin:20px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:40px;
+
+
+}
+
+#rech h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 5px solid lightsalmon;
+    margin-bottom:50px;
+    padding: 13px 0;
+}
+
+.radioc h2{
+    
+    font-size: 40px;
+    border-bottom: 5px solid lightsalmon;
+
+}
+.radioc select{
+    margin-top: 0;
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:100%;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.radioc option{
+    background: #313131;
+   
+}
+
+
+
+#rechin{
+    width:80%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin:8px 0;
+    
+
+}
+#rechin input{
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+.radioc {
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    width:80%;
+    float:left;
+    margin:20px 10px;
+    
+}
+
+.btn7 button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:100%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+#dth{
+    padding: 5px;
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:30px 60px;
+    margin:20px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:40px;
+    display: block;
+
+
+}
+
+#dth h1{
+    float: left;
+    font-size: 50px;
+    border-bottom: 5px solid lightsalmon;
+    margin-bottom:50px;
+    padding: 13px;
+    
+
+
+
+}
+
+#subs input{
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+#operator {
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    width:80%;
+    float:left;
+    margin:20px 10px;
+    line-height: 30px;
+    padding: 10px;
+    
+}
+#operator h2{
+    font-size: 40px;
+    border-bottom: 5px solid lightsalmon;
+    padding: 8px;
+
+}
+#operator select{
+    margin-top: 0;
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:100%;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.btn8 button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:90%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+#foot3 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:38%;
+
+}
+
+
+#foot4 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:38%;
+
+}
+
+#toll{
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:60px;
+    margin:20px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:40px;
+    display: block;
+
+}
+#toll h1{
+    font-family:sans-serif;
+    padding: 10px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+}
+
+.tollin input{
+
+    margin-top: 8%;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+.tollbut button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+#foot5 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:36%;
+
+}
+
+#clt{
+    
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:tomato;
+    background:white;
+    padding:40px;
+    margin:30px;
+    border-radius: 5px;
+    width:60%;
+    margin-top:16%;
+    display:block;
+
+
+}
+#clt li{
+    display:inherit;
+    line-height:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+#ourclt h1{
+    padding:10px;
+    background:darkslategray;
+    border:5px orange outset;
+    color:whitesmoke;
+    margin-top: 0;
+    
+}
+#foot8 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:50%;
+
+
+}
+
+#clt img{
+    float: right;
+}
+
+#money{
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:60px;
+    margin:20px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:70px;
+    display: block;
+}
+#money h1{
+    font-family:sans-serif;
+    padding: 8px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+}
+
+.moneyt input{
+    margin-top: 8%;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.moneybut button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#foot6 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:43%;
+
+}
+
+#chobank{
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:60px;
+    margin:20px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:120px;
+    display: block;
+
+}
+#chobank h1{
+    font-family:sans-serif;
+    padding: 8px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+
+}
+
+.amt input{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border-bottom:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+.bankc h1{
+    font-family:sans-serif;
+    padding: 8px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+
+}
+.bankopt{ 
+    border:none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    width:90%;
+    margin:40px 40px;
+    float: left;
+    line-height: 30px;
+    
+}
+
+
+.bankopt label{
+    margin-top:0;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    width:80%;
+    overflow: hidden;
+    padding: 30px;
+    cursor: pointer;
+
+}
+
+.bankopt select{
+    margin-top: 0;
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:100%;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+
+.bankbut button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+#foot7 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:47%;
+
+}
+#pp{
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:20px 80px;
+    margin:50px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:120px;
+    display: block;
+}
+#pp h1{
+    font-family:sans-serif;
+    padding: 7px;
+    margin-bottom: 20px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+}
+
+#pp input{
+    margin-top: 0;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+    
+   
+}
+
+
+
+
+#pp button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#foot45 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:50%;
+
+}
+
+#foot45 img{
+    margin-left: 47%;
+    border-radius: 10px;
+    
+}
+
+#chb label{
+    margin-top: 0;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+  
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#chb select{
+    margin-top: 0;
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+#ma{
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:80px 80px;
+    margin:50px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:70px;
+    display: block;
+}
+
+#ma h1{
+    font-family:sans-serif;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+}
+
+
+#mpack label{
+    margin-top:0;
+    border:none;
+    background: none;
+    color:white;
+    font-size: 20px;
+    float:left;
+    width:80%;
+    overflow: hidden;
+    padding: 30px;
+    cursor: pointer;
+
+}
+
+#mpack select{
+    margin-top: 0;
+    border:none;
+    background: #313131;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:100%;
+    overflow: hidden;
+    padding: 40px;
+    cursor: pointer;
+
+}
+
+
+#ma button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+#foot78 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:43%;
+
+}
+
+#amnt {
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:white;
+    background: #313131;
+    padding:60px 80px;
+    margin:50px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:70px;
+    display: block;
+}
+
+#amnt h1{
+    font-family:sans-serif;
+    padding: 10px;
+    margin-bottom: 120px;
+    font-size:40px ;
+    border-bottom: 4px solid lightsalmon;
+    color:white;
+    float: left;
+    overflow: hidden;
+}
+#amnt input{
+    margin-top: 0;
+    border:none;
+    background: none;
+    margin-bottom: 100px;
+    color:white;
+    font-size: 20px;
+    float:left;
+    border-bottom: 1px solid lightsalmon;
+    width:80%;
+    overflow: hidden;
+    padding: 20px;
+    cursor: pointer;
+   
+}
+#amnt button{
+    color:white;
+    padding: 5px;
+    text-align: center;
+    border:2px solid lightsalmon;
+    background: #313131;
+    width:80%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#foot96 footer{
+    background: rgb(119, 77, 77);
+    padding: 10px;
+    color:gainsboro;
+    position: relative;
+    margin-top:43%;
+
+}

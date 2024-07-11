@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<form method="POST">
+	{% csrf_token %}
+	<title>PK Pay</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<div id="head">
+	<header>
+		<center>
+		   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+		</center>
+		<br>
+
+		
+	</header>
+	</div>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+
+	
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="about">About Us</a></li>
+			<li><a href="login">Login/Signup</a></li>
+			<li><a href="contact">Contact Us</a></li>
+			<li><a href="clients">Our Clients</a></li>
+			<li><a href="https://www.mygov.in/covid-19">COVID-19</a></li>
+			{% block content %}
+			{% endblock %}
+			
+		</ul>
+
+
+	</div>
+	<div class="opt">
+		<a href="mobile" class="btn button1">Mobile Recharge
+			<i class="fas fa-mobile-alt"></i>
+		</a>
+		<a href="dth" class="btn button2">DTH
+			<i class="fas fa-satellite-dish"></i>
+		</a>
+		<a href="toll" class="btn button3">Fastag
+			<image src="{% static 'images/toll.jpg' %}" width="30px" height="30px"></image>
+		</a>
+				
+
+	</div>
+	<br>
+	
+
+	<div id="foot">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+	
+		
+</form>
+</body>
+</html>

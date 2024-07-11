@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <form action="#" method="POST">
+            {% csrf_token %}
+            <title>PK Pay</title>
+            <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+            <div id="head">
+            <header>
+                <center>
+                   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+                </center>
+                <br>
+        
+
+		
+	        </header>
+            </div>
+        
+        
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+
+    </head>
+
+<body>
+    {% block content %}
+    {% endblock %}
+    <div id="signup">
+        <h1><strong>Signup</strong></h1>
+        <form method="POST">
+        <div class="name1">
+            <i class="fas fa-user"></i>
+            <input type="text" name="name1" placeholder="name" required>
+        </div>
+    
+        <div class="mail">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" placeholder="email id" required>
+        </div>
+        <div class="password">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" placeholder="password" required>
+
+        </div>
+        <div class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <input type="tel" name="phone" placeholder="mobile number" required maxlength="10">
+
+        </div>
+        <div class="btn5">
+            
+            <button type="submit">Create Account</button>
+        
+            </form>
+        </div>
+        
+        
+    </div>
+
+    
+
+    <div id="foot2">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+
+</body>

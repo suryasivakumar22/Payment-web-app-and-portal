@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<form action="#" method="POST">
+	{% csrf_token %}
+	<title>PK Pay</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<div id="head">
+	<header>
+		<center>
+			<img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+		</center>
+		<br>
+
+		
+	</header>
+	</div>
+</head>
+{% block content %}
+<body>
+
+<div id="info">
+    <h2>About Us</h2>
+    <hr width="100%">
+    <p>
+        
+            <blockquote> This company was established in 2015 by two friends KIREN & PAVAN.Since then this company has been doing wonderful creations.Our motto “LIFE IS GROWTH” aptly captures the ever-evolving spirit of PK. We have evolved from being a textiles and polyester company to an integrated player across energy, materials, retail, entertainment and digital services. In each of these areas, we are committed to innovation-led, exponential growth. Our vision has pushed us to achieve global leadership in many of our businesses.
+
+            PK's products and services portfolio touches almost all Indians on a daily basis, across economic and social spectrums. We are now focussed on building platforms that will herald the Fourth Industrial Revolution and will create opportunities and avenues for India and all its citizens to realise their true potential.
+            </blockquote>
+    </p>
+    </div>
+
+
+    <div id="foot">
+		<footer>
+			<h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+		</footer>
+	</div>
+</form>
+</body>
+{% endblock content %}
+</html>	

@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <form action="#" method="POST">
+    {% csrf_token %}
+    <title>PK Pay</title>
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <div id="head">
+    <header>
+        <center>
+             <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+        </center>
+        <br>
+
+		
+	</header>
+	</div>
+
+</head>
+
+<body>
+
+    <div id="ourclt">
+    <h1><strong>Our Clients</strong></h1>
+    </div>
+    <div id="clt">
+        <ul>
+            <li>Reliance Industries
+                <img src="{% static 'images/reliance.png' %}" width="60px" height="50px">
+            </li>
+            <li>Jio              
+                <img src="{% static 'images/jio.png' %}" width="40px" height="40px">
+            </li>
+            <li>Tata
+                <img src="{% static 'images/tata.png' %}" width="40px" height="40px">
+            </li>
+            <li>Aditya Birla
+                <img src="{% static 'images/birla.png' %}" width="60px" height="50px">
+            </li>
+            <li>Airtel
+                <img src="{% static 'images/airtel.png' %}" width="50px" height="45px">
+            </li>
+            <li>Google
+                <img src="{% static 'images/google.jpg' %}" width="40px" height="40px">
+            </li>
+            <li>Ola
+                <img src="{% static 'images/ola.png' %}" width="60px" height="40px">
+            </li>
+            <li>Uber
+                <img src="{% static 'images/uber.jpg' %}" width="50px" height="40px">
+            </li>
+            <li>Swiggy
+                <img src="{% static 'images/swiggy.png' %}" width="40px" height="40px">
+            </li>
+            <li>Zomato
+                <img src="{% static 'images/zomato.png' %}" width="50px" height="40px">
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="foot8">
+        <footer>
+            <h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+        </footer>
+    </div>
+
+</body>
+</html>

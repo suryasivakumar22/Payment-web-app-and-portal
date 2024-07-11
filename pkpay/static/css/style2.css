@@ -1,0 +1,108 @@
+
+#dy {
+    line-break: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    color:black;
+    background: white;
+    padding:60px 80px;
+    margin:50px;
+    border-radius: 5px;
+    width:40%;
+    margin-top:70px;
+    display: block;
+    float: center;
+    border:1px solid whitesmoke;
+}
+#dy input{
+    margin-top: 0;
+    border:none;
+    background: none;
+    margin-bottom: 100px;
+    color:black;
+    font-size: 20px;
+    float:left;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:80%;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+
+#dy button{
+    color:black;
+    padding: 5px;
+    text-align: center;
+    border:1px solid black;
+    background: white;
+    width:50%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+#psuc1 h1{
+    float: center;
+    padding: 20px;
+    color: green;
+    margin-top: 20%;
+
+}
+
+#psuc i{
+    text-align: center;
+    font-size: 50px;
+    float:center;
+    margin-left: 48%;
+    color: green;
+
+}
+
+#psuc1  button{
+    margin-top: 2%;
+    background: white;
+    color:orangered;
+    border: 3px solid green;
+    border-radius:20px;
+    padding: 5px;
+    font-size:20px;
+
+}
+
+#pfai i{
+    text-align: center;
+    font-size: 50px;
+    float:center;
+    margin-left: 48%;
+    color: red;
+    
+
+}
+#pfai1 h1{
+    float: center;
+    padding: 20px;
+    color: red;
+    margin-top: 20%;
+
+}
+
+#pfai1 button{
+    
+    background:white;
+    color: green;
+    border: 3px solid green;
+    padding: 5px;
+    border-radius: 20px;
+    font-size:20px;
+    margin-top:2%;
+   
+}
+

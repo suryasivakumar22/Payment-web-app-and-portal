@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <form action="#" method="POST">
+            {% csrf_token %}
+            <title>PK Pay</title>
+            <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+            <div id="head">
+            <header>
+                <center>
+                   <img src="{% static 'images/pay.jpg' %}" alt="logo" width="300px" height="130px">
+                </center>
+                <br>
+        
+		
+	        </header>
+        </div>
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    </head>
+
+<body>
+    <div id="rech">
+        <h1><strong>Mobile Recharge</strong></h1>
+        <form method="POST">
+        <div id="rechin">
+            <input type="tel" placeholder="mobile number" name="number" required maxlength="10">
+
+
+            <div class="radioc">
+                <h2>choose operator</h2> 
+               
+                    <select name="operator" id="operator">
+                    <option value="airtel">airtel</option>                      
+                    <option value="jio">jio</option>
+                    <option value="vodafone">vodafone</option>
+                    <option value="bsnl">bsnl</option>
+                    <option value="idea">idea</option>
+                    </select>
+
+                <div class="btn7">
+                    
+                    <button type="submit">Proceed</button>
+                
+                </div>
+            </div>
+        </div>    
+        
+    </div>
+        </form>
+        
+    </div>
+
+    
+    <div id="foot3">
+        <footer>
+            <h2><strong><center>Copyright © 2020, PK Pay. All Rights Reserved</center> </strong></h2>
+        </footer>
+    </div>
+
+</body>
